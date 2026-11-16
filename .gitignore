@@ -1,0 +1,6 @@
+# Network logs can contain cookies and tokens. Never commit your own.
+*.har
+!data/sample_*.har
+.env
+.venv/
+__pycache__/
